@@ -437,3 +437,17 @@ Estilizando o Portifólio
     background: var(--color4);
     color: var(--color6);
 }
+
+.preco-antigo {
+    font-size: 0.95rem;
+    color: var(--color3);
+    text-decoration: line-through;
+    margin: 0;
+}
+
+.desconto {
+    font-size: 0.85rem;
+    color: var(--color4);
+    font-weight: 800;
+    margin: 0;
+}
