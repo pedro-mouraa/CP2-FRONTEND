@@ -20,6 +20,8 @@ body {
     font-family: var(--fontFamily);
 }
 
+/* Estilizando o Hero */
+
 #inicio {
     position: fixed;
     top: 0;
@@ -63,6 +65,8 @@ body {
     border-radius: 50%;
 }
 
+/* Estilizando o Header */
+
 header {
     background: var(--color2);
     color: var(--color4);
@@ -96,6 +100,8 @@ header nav ul li a:hover {
     text-decoration: underline;
     text-transform: uppercase;
 }
+
+/* Estilizando a imgPrincipal (Home) */
 
 .imgPrincipal {
     display: flex;
@@ -122,6 +128,8 @@ header nav ul li a:hover {
     border-radius: 50%;
 }
 
+/* Estilizando a página Sobre */
+
 #titulo-sobre {
     margin-top: 20px;
     text-align: center;
@@ -130,40 +138,6 @@ header nav ul li a:hover {
     text-transform: uppercase;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-
-header {
-    background: var(--color2);
-    color: var(--color4);
-    padding: 20px 40px;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-    border-radius: 0 0 20px 20px;
-}
-
-header #logo {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-}
-
-header nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
-}
-
-header nav ul li a {
-    text-decoration: none;
-    color: var(--color1);
-    font-weight: 800;
-}
-
-header nav ul li a:hover {
-    color: var(--color4);
-    text-decoration: underline;
-    text-transform: uppercase;
 }
 
 main h1 {
@@ -175,7 +149,6 @@ main h1 {
     -webkit-text-fill-color: transparent;
     background-clip: text;
     padding: 0 40px;
-    animation: efeito 1s ease-in-out;
 }
 
 main h2 {
@@ -195,4 +168,168 @@ main p {
     color: var(--color1);
     line-height: 1.8;
     padding: 0 80px;
+}
+
+/* Estilizando o Formulário de Contato */
+
+.pagina-contato form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding: 0 20px;
+}
+
+.pagina-contato fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    border: 1px solid var(--color4);
+    border-radius: 20px;
+    padding: 40px;
+    gap: 10px;
+}
+
+.pagina-contato legend {
+    color: var(--color4);
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 0 10px;
+    text-align: center;
+}
+
+.pagina-contato label {
+    color: var(--color1);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.pagina-contato input {
+    background: var(--color2);
+    border: 1px solid var(--color3);
+    border-radius: 10px;
+    padding: 12px 16px;
+    color: var(--color1);
+    font-family: var(--fontFamily);
+    font-size: 1rem;
+}
+
+.pagina-contato input:focus {
+    outline: none;
+    border-color: var(--color4);
+}
+
+.pagina-contato textarea {
+    background: var(--color2);
+    border: 1px solid var(--color3);
+    border-radius: 10px;
+    padding: 12px 16px;
+    color: var(--color1);
+    font-family: var(--fontFamily);
+    font-size: 1rem;
+    height: 150px;
+    resize: vertical;
+}
+
+.pagina-contato textarea:focus {
+    outline: none;
+    border-color: var(--color4);
+}
+
+.pagina-contato button {
+    margin-top: 10px;
+    padding: 14px;
+    background: var(--colorLinear);
+    border: none;
+    border-radius: 10px;
+    color: var(--color6);
+    font-family: var(--fontFamily);
+    font-size: 1rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    cursor: pointer;
+}
+
+.pagina-contato button:hover {
+    opacity: 0.85;
+}
+
+
+/* Estilizando o Footer */
+
+footer {
+    margin-top: 80px;
+    background: var(--color2);
+    border-top: 1px solid rgba(0, 229, 255, 0.2);
+    padding: 60px 40px 30px;
+    font-family: var(--fontFamily);
+}
+
+.footer-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer-col {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer-col h3 {
+    color: var(--color4);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid rgba(0, 229, 255, 0.2);
+    padding-bottom: 10px;
+}
+
+.footer-col a,
+.footer-col span {
+    color: rgba(240, 240, 240, 0.6);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-col a:hover {
+    color: var(--color4);
+}
+
+.footer-icon {
+    font-size: 1.1rem;
+}
+
+.footer-divider {
+    width: 100%;
+    max-width: 1000px;
+    margin: 40px auto 20px;
+    height: 1px;
+    background: rgba(0, 229, 255, 0.15);
+}
+
+.footer-bottom {
+    text-align: center;
+    color: rgba(240, 240, 240, 0.3);
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.footer-bottom span {
+    color: var(--color4);
 }
