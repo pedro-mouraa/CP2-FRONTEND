@@ -5,3 +5,5 @@ Pedro Henrique Moura Aguiar      RM: 570715
 Link do GitHub Pages: https://pedro-mouraa.github.io/CP2-FRONTEND/
 
 Link do repositório do GitHub: https://github.com/pedro-mouraa/CP2-FRONTEND
+
+Link do vídeo do projeto no LinkedIn: https://www.linkedin.com/feed/update/urn:li:activity:7461180201461493760/
